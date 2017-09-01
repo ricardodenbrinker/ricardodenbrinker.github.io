@@ -27,7 +27,7 @@ $('.my-class5-1').delay(4800).fadeIn(500);
 });
 
 $(document).ready(function() {
-$('.my-class5-2').delay(4800).fadeIn(500);
+$('.my-class5-2').delay(5100).fadeIn(500);
 });
 
 $(document).ready(function() {
