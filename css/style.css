@@ -1,0 +1,145 @@
+
+
+body { 
+  background: url(images/Ricardo-Adam.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+font-family: 'Anton', sans-serif;
+font-size: 12px;
+}
+
+.content-block {
+
+	
+	padding: 10px;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .05em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .5s infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: lightgrey; }
+}
+
+.my-class {
+
+display: none;
+}
+
+.my-class1 {
+
+display: none;
+}
+
+.my-class2 {
+
+display: none;
+}
+
+.my-class3 {
+
+display: none;
+}
+
+.my-class4 {
+
+display: none;
+}
+
+.my-class5 {
+
+display: none;
+}
+
+.my-class6 {
+
+display: none;
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.typewriter h1 {
+
+	font-size: 84px;
+}
+
+
+	}
+
+@media (min-width: 992px) {
+
+	body {
+
+		font-size: 1rem;
+	}
+
+.container {
+
+	margin-left: 10%;
+	margin-right: 10%;
+margin-top: 100px;
+}
+
+.typewriter h1 {
+
+	font-size: 65px;
+}
+
+.my-class {
+
+display: none;
+font-size: 140%;
+}
+
+.my-class1 {
+
+display: none;
+font-size: 140%;
+}
+
+.my-class2 {
+
+display: none;
+font-size: 140%;
+}
+
+.my-class3 {
+
+display: none;
+font-size: 140%;
+}
+
+.my-class4 {
+
+display: none;
+font-size: 140%;
+}
+
+.my-class5 {
+
+display: none;
+font-size: 140%;
+}
+
+}
+
